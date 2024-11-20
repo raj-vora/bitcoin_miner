@@ -1,9 +1,5 @@
 # Project 1
 
-## Contributors
- - Raj Vora, 35551411
- - Rushil Patel, 66999320
-
 ## Problem Definition
 
 Bitcoins (seehttp://en.wikipedia.org/wiki/Bitcoin) are the most popular crypto-currency in common use. At their heart, bitcoins use the hardness of cryptographic hashing (for a reference seehttp://en.wikipedia.org/wiki/Cryptographichashfunction)to ensure a limited “supply” of coins.  In particular, the key component in a bit-coin is an input that, when “hashed” produces an output smaller than a target value.  In practice, the comparison values have leading  0’s, thus the bitcoin is required to have a given number of leading 0’s (to ensure 3 leading 0’s, you look for hashes smaller than0x001000... or smaller or equal to 0x000ff....The hash you are required to use is SHA-256.  You can check your version against this online hasher:http://www.xorbin.com/tools/sha256-hash-calculator. For example, when the text “COP5615 is a boring class” is hashed, the value fb4431b6a2df71b6cbad961e08fa06ee6fff47e3bc14e977f4b2ea57caee48a4 is obtained.  For the coins, you find, check your answer with this calculator to ensure correctness. The goal of this first project is to use Erlang and the Actor Model to build a good solution to this problem that runs well on multi-core machines.
@@ -44,3 +40,8 @@ Client and Server computing for 4 0s
 CPU utilization
 ![Server CPU](server_cpu_util.jpeg)
 ![Client CPU](16_clients.png)
+
+
+## Contributors
+- [@raj-vora](https://github.com/raj-vora)
+- [@rushilp1](https://github.com/rushilp1)
